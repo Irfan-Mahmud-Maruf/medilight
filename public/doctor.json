@@ -1,0 +1,30 @@
+[
+  {
+    "key": "1",
+    "name": "DR. M. A. WADUD SARKER",
+    "post": "CEO, The Dental Care",
+    "des": "BDS, MPH (DHAKA), FICD (USA), FPFA (USA). Life Member Bangladesh Dental Society, ADA, IDA",
+    "img": "../src/images/experts/Doctor-1.jpg"
+  },
+  {
+    "key": "2",
+    "name": "DR. M. A. SIKDER",
+    "post": "Senior Consultant",
+    "des": "BDS,  FPFA (USA). Life Member Bangladesh Dental Society, ADA, IDA",
+    "img": "../src/images/experts/Doctor-2.jpg"
+  },
+  {
+    "key": "3",
+    "name": "DR. MD. ASIKUL WADUD",
+    "post": "Consultant",
+    "des": "Sc & Grad. Dip. in Clinical Science in Maxillofacial Prosthetics (MU, Thailand). Assistant Professor",
+    "img": "../src/images/experts/Doctor-3.jpg"
+  },
+  {
+    "key": "4",
+    "name": "DR. MAHJABEEN HOSSAIN",
+    "post": "Consultant (Part Time)",
+    "des": "BDS (DU), MPH (NSU), M.Sc in Oral Biology (MU Thailand).",
+    "img": "../src/images/experts/Doctor-4.jpg"
+  }
+]

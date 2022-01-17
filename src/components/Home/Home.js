@@ -65,7 +65,9 @@ const Home = () => {
                 <div className="grid lg:grid-cols-3 md:grid-cols-2  mx-4 gap-6">
                     {
                         image.map(img => <HomeServices
-                            img={img}></HomeServices>)
+                            key={img.key}
+                            img={img}
+                            ></HomeServices>)
                     }
                 </div>
             </div>

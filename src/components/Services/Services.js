@@ -16,7 +16,9 @@ const Services = () => {
 
                 {
                     photos.map(photo => <Service
-                        photo={photo}></Service>)
+                        key={photo.key}
+                        photo={photo}
+                        ></Service>)
                 }
             </div>
         </div>

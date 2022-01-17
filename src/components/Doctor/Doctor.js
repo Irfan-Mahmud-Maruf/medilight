@@ -3,7 +3,6 @@ import { Card } from 'react-bootstrap';
 
 const Doctor = (props) => {
     const { img, des, post, name, } = props.doctor;
-    console.log(img);
     return (
         <div>
             <Card >

@@ -13,7 +13,10 @@ const Doctors = () => {
             <h1 className="my-5 text-5xl text-center "> Our Doctors</h1>
             <div className="grid lg:grid-cols-3 md:grid-cols-2  mx-4 gap-6">
                 {
-                    doctors.map(doctor => <Doctor doctor={doctor}></Doctor>)
+                    doctors.map(doctor => <Doctor 
+                        key={doctor.key}
+                        doctor={doctor}
+                        ></Doctor>)
                 }
             </div>
         </div>

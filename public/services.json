@@ -3,36 +3,36 @@
     "key": "1",
     "name": "DENTAL IMPLANTS",
     "des": "Strengthens your jaw bone, Promotes healthy gums, Restores your ability to chew and speak, Gives you the confidence to smile naturally again",
-    "img": "../src/images/services/Service-1.jpg"
+    "img": "https://i.ibb.co/nDKMS3R/Service-1.jpg"
   },
   {
     "key": "2",
     "name": "Covid Test",
     "des": "Health centers provide COVID-19 testing services to individuals who meet criteria for COVID-19 testing, regardless of their ability to pay. Health centers will determine whether there is available reimbursementany related cost sharing restrictions for COVID-19 testing prior to billing patients. If there are any out-of-pocket costs",
-    "img": "../src/images/services/Service-2.jpg"
+    "img": "https://i.ibb.co/Rhfdd24/Service-2.jpg"
   },
   {
     "key": "3",
     "name": "Blode presare test",
     "des": "A blood pressure test measures the pressure in your arteries as your heart pumps. You might have a blood pressure test as a part of a routine doctorappointment or as a screening for high blood pressure (hypertension). Some people use a blood pressure test at home to better track their heart health.",
-    "img": "../src/images/services/Service-3.jpg"
+    "img": "https://i.ibb.co/hcbHqLT/Service-3.jpg"
   },
   {
     "key": "4",
     "name": "Health Care",
     "des": "Evercare Hospital Dhakais a 425-bed multidisciplinary super specialty tertiary care hospital which is the first and only hospital in Bangladesh to have got JCI Accredited. The Joint Commission International (JCI) is a U.S. based accreditation body dedicated to improving healthcare quality and safety around the world",
-    "img": "../src/images/services/Service-4.jpg"
+    "img": "https://i.ibb.co/hHyZHtT/Service-4.jpg"
   },
   {
     "key": "5",
     "name": "Influence",
     "des": "Strengthens your jaw bone, Promotes healthy gums, Restores your ability to chew and speak, Gives you the confidence to smile naturally again",
-    "img": "../src/images/services/Service-5.jpg"
+    "img": "https://i.ibb.co/xzmmqBg/Service-5.jpg"
   },
   {
     "key": "6",
     "name": "Heart Attack",
     "des": "Understandably, treatment for those diagnosed with heart attack can be complex. But this section on heart attack treatments will help you talk with your doctors and healthcare providers.",
-    "img": "../src/images/services/Service-6.jpg"
+    "img": "https://i.ibb.co/cCVD8gT/Service-6.jpg"
   }
 ]

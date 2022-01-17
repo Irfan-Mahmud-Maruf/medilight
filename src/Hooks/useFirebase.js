@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, GithubAuthProvider, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import FirebaseInitialize from "../Firebase/Firebase.init";
 FirebaseInitialize()
@@ -9,7 +9,6 @@ const useFirebase = () => {
     const [password, setPassword] = useState('');
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
-    const githubProvider = new GithubAuthProvider();
     //google sing in
     const googleSingIn = () => {
         signInWithPopup(auth, googleProvider)
@@ -22,16 +21,6 @@ const useFirebase = () => {
                 setError(errorMessage)
             })
     }
-    //github singin 
-    const githubSingIn = () => {
-        signInWithPopup(auth, githubProvider)
-            .then(result => {
-                setUser(result.user)
-            })
-            .catch(error => {
-                setError(error.message)
-            })
-    };
     //Email sing in
     const singInWithEmail = e => {
         e.preventDefault()
@@ -92,7 +81,6 @@ const useFirebase = () => {
         googleSingIn,
         error,
         singOut,
-        githubSingIn,
         getEmail,
         getPassword,
         singInWithEmail,

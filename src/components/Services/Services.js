@@ -16,7 +16,7 @@ const Services = () => {
 
                 {
                     photos.map(photo => <Service
-                        key={photo.key}
+                        key={photo.Id}
                         photo={photo}
                         ></Service>)
                 }

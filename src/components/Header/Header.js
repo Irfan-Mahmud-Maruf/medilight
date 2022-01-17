@@ -22,7 +22,7 @@ const Header = () => {
                         
                         <NavLink to="/home"><span className='mr-4 '>Home</span></NavLink>
                         <NavLink to="/about"><span  className='mr-4 '>About Us</span></NavLink>
-                        <NavLink to="/services"><span className='mr-4 '>Services</span></NavLink>
+                        <NavLink to="/service"><span className='mr-4 '>Service</span></NavLink>
                         <NavLink to="/gallery"><span className='mr-4 '>Gallery</span></NavLink>
                         <NavLink to="/contact"><span  className='mr-4 '>Contact</span></NavLink>
                         {!email ? <> <NavLink to="/login"><span className='mr-4 '>Log In</span></NavLink>

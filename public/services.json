@@ -1,36 +1,36 @@
 [
   {
-    "key": "1",
+    "Id": "1",
     "name": "Complete blood count",
     "des": "A routine complete blood count (CBC) checks for levels of 10 different components of every major cell in your blood: white blood cells, red blood cells, and platelets.",
     "img": "https://i.ibb.co/nDKMS3R/Service-1.jpg"
   },
   {
-    "key": "2",
+    "Id": "2",
     "name": "Ultrasonography",
     "des": "A procedure that uses high-energy sound waves to look at tissues and organs inside the body. The sound waves make echoes that form pictures of the tissues and organs on a computer screen (sonogram).",
     "img": "https://i.ibb.co/Rhfdd24/Service-2.jpg"
   },
   {
-    "key": "3",
+    "Id": "3",
     "name": "Basic metabolic panel",
     "des": "A basic metabolic panel (BMP) usually checks for levels of eight compounds in the blood-calcium, glucose, sodium, potassium, bicarbonate, chloride,  blood urea nitrogen (BUN), creatinine.",
     "img": "https://i.ibb.co/hcbHqLT/Service-3.jpg"
   },
   {
-    "key": "4",
+    "Id": "4",
     "name": "Computed Tomography",
     "des": "Computed tomography (CT) scan is a useful diagnostic tool for detecting diseases and injuries. It uses a series of X-rays and a computer to produce a 3D image of soft tissues and bones.",
     "img": "https://i.ibb.co/hHyZHtT/Service-4.jpg"
   },
   {
-    "key": "5",
+    "Id": "5",
     "name": "Magnetic resonance imaging",
     "des": "MRI is a medical imaging technique that uses a magnetic field and computer-generated radio waves to create detailed images of the organs and tissues in your body. Most MRI machines are large, tube-shaped magnets.",
     "img": "https://i.ibb.co/xzmmqBg/Service-5.jpg"
   },
   {
-    "key": "6",
+    "Id": "6",
     "name": "X-Rays",
     "des": "X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white.",
     "img": "https://i.ibb.co/cCVD8gT/Service-6.jpg"

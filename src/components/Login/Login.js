@@ -27,7 +27,7 @@ const Login = () => {
                 <Link to="/singup">Don't have a account?Sing up</Link>
             </Form>
             <div className="mx-auto w-25">
-                <div>----------You can Sing in With:)-----------</div>
+                <div>----------You can Sing in With-----------</div>
 
                 <span onClick={googleSingIn} className="text-3xl bg-gray-400 inline-block p-2 rounded-lg mt-3 ms-5 cursor-pointer">
                     <FcGoogle />

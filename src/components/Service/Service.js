@@ -1,9 +1,10 @@
-import Button from '@restart/ui/esm/Button';
+
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
-    const { img, name, des } = props.photo;
+    const { Id, img, name, des } = props.photo;
     return (
         <div>
 
@@ -14,7 +15,7 @@ const Service = (props) => {
                     <Card.Text>
                         {des}
                     </Card.Text>
-                    <Button className="btn btn-outline-primary mt-3">More Details</Button>
+                    <Link to={`/service/${Id}`} className="btn btn-outline-primary mt-3">See Services Details</Link>
                 </Card.Body>
             </Card>
         </div>

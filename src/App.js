@@ -12,6 +12,7 @@ import PageNotFound from './components/pageNotFound/PageNotFound';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Services from './components/Services/Services';
 import SignUp from './components/SignUp/Signup';
+import SingleService from './components/SingleService/SingleService';
 import AuthProvider from './Context/AuthProvider';
 
 
@@ -42,9 +43,13 @@ function App() {
               <Contact />
             </Route>
 
-            <PrivateRoute path="/services">
-              <Services />
+            <PrivateRoute exact path='/service/:serviceId'>
+              <SingleService />
             </PrivateRoute>
+
+            <Route path="/service">
+              <Services />
+            </Route>
 
             <Route path="/Gallery">
               <Gallery />
@@ -56,6 +61,7 @@ function App() {
             <Route path="/signup">
               <SignUp />
             </Route>
+
             <Route path="*">
               <PageNotFound />
             </Route>

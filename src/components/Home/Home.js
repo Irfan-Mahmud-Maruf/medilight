@@ -29,7 +29,7 @@ const Home = () => {
                         <Carousel.Caption>
                         <h3 className="text-primary font-bold md:text-5xl sm:text-3xl">We provide best services </h3>
                             <p className="text-primary mb-3 text-white">We can help you conquer a wide range of psychological and emotional problems.</p>
-                            <NavLink to="/services" className="btn btn-outline-primary text-white">Our services</NavLink>
+                            <NavLink to="/service" className="btn btn-outline-primary text-white">Our services</NavLink>
 
                         </Carousel.Caption>
                     </Carousel.Item>
